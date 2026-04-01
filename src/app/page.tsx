@@ -17,38 +17,15 @@ export default function Home() {
       <main>
         <Hero />
 
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-32 pb-32">
-          <section id="agent-loop">
-            <AgentLoop />
-          </section>
-
-          <section id="architecture">
-            <ArchitectureExplorer />
-          </section>
-
-          <section id="tools">
-            <ToolSystem />
-          </section>
-
-          <section id="commands">
-            <CommandCatalog />
-          </section>
-
-          <section id="extensions">
-            <ExtensionGallery />
-          </section>
-
-          <section id="providers">
-            <ProviderSystem />
-          </section>
-
-          <section id="keybindings">
-            <Keybindings />
-          </section>
-
-          <section id="extension-api">
-            <ExtensionAPI />
-          </section>
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 md:ml-20 lg:mx-auto space-y-28 pb-20">
+          <section id="agent-loop"><AgentLoop /></section>
+          <section id="architecture"><ArchitectureExplorer /></section>
+          <section id="tools"><ToolSystem /></section>
+          <section id="commands"><CommandCatalog /></section>
+          <section id="extensions"><ExtensionGallery /></section>
+          <section id="providers"><ProviderSystem /></section>
+          <section id="keybindings"><Keybindings /></section>
+          <section id="extension-api"><ExtensionAPI /></section>
         </div>
 
         <Footer />

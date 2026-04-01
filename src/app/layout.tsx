@@ -13,12 +13,6 @@ export const metadata: Metadata = {
     siteName: "pi unpacked",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "pi unpacked",
-    description:
-      "What actually happens when you type a message into pi? Mapped from the source of v0.64.0.",
-  },
 };
 
 export default function RootLayout({
@@ -30,13 +24,9 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:wght@700;800;900&display=swap"
           rel="stylesheet"
         />
       </head>
