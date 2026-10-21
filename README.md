@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Use Node.js 24.22.1 or a newer Node 24 patch. The minimum includes the October 2026 security fixes. Keeping Node 24 matches the existing Vercel runtime (agent default, not requested).
+
 First, run the development server:
 
 ```bash
